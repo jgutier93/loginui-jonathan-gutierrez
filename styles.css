@@ -1,5 +1,9 @@
 html,body{
     margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    color:mediumturquoise;
+    background: url(space.jpeg);
+   
 }
 .container-fluid{
     display: flex;
@@ -12,10 +16,50 @@ html,body{
 .login-box{
     border-style: solid;
     border-width: 4px;
-    border-color: blue;
-    background-color: grey;
+    border-radius: 20px;
+    border-color: rgb(127, 221, 228);
+    background-color:rgb(3, 2, 2);
     min-width: 30%;
     min-height: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form{
+    margin-top: 10px
+}
+form .field{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.field input, form button{
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(rgb(206, 225, 242),rgb(193, 214, 223));
+    border: 1px solid rgb(91, 220, 177);
+    padding: 0 5px;
+    border-radius: 0 5px 5px 0;
+}
+button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    color: #27bae6;
+    border: 3px solid #27bae6;
+    box-shadow: 0 0 5px rgba (0,255,0,.3)}
+
+    .text{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-top: 15px;}
 }
