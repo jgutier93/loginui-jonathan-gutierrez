@@ -1,10 +1,10 @@
-html,body{
+html, body{
     margin: 0px;
     font-family: 'Orbitron', sans-serif;
     color:mediumturquoise;
-    background: url(space.jpeg);
-   
-}
+    background-color: rgb(154, 159, 159);
+ }
+
 .container-fluid{
     display: flex;
     justify-content: center;
@@ -62,4 +62,6 @@ button:hover{
     font-weight: 600;
     letter-spacing: 4px;
     margin-top: 15px;}
-}
+    body{
+        background-image: url("//images/space.jpeg");
+    }
