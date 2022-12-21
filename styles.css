@@ -3,6 +3,7 @@ html, body{
     font-family: 'Orbitron', sans-serif;
     color:mediumturquoise;
     background-color: rgb(154, 159, 159);
+ 
  }
 
 .container-fluid{
@@ -62,6 +63,9 @@ button:hover{
     font-weight: 600;
     letter-spacing: 4px;
     margin-top: 15px;}
-    body{
-        background-image: url("//images/space.jpeg");
-    }
+
+body{
+    background-image: url("images/space.jpeg");
+    background-repeat: no-repeat;
+}
+   
